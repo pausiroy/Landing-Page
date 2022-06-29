@@ -15,13 +15,11 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
 .nav-links {
-    display: flex;
     color: #F9FAF8;
     font-size: 18px;
 
