@@ -10,24 +10,28 @@ body {
     flex-direction: column;
 }
 
-/* Created Header */
+/* Header */
 
 .navbar {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     background-color: #1F2937;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .nav-links {
     display: flex;
-    margin-left: auto;
-    color: white;
+    color: #F9FAF8;
     font-size: 18px;
 
 }
 
 .header-logo {
     padding: 5px;
+    font-size: 24px;
+    color: #F9FAF8;
+
 }
 
 a {
@@ -37,5 +41,50 @@ a {
 
 a:visited {
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
+}
+
+/* Hero */
+
+.hero-container {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    padding: 90px;
+}
+
+.hero-main {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding: 15px;
+}
+
+.hero-main-text {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero-button {
+    display: block;
+    width: 100px;
+    border-radius: 6px;
+    border: 0;
+    text-decoration: none;
+    padding: 10px;
+    background-color: skyblue
+}
+
+
+.hero-img img {
+    width: 400px;
+    height: 450px;
 }
