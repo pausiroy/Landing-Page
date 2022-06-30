@@ -47,7 +47,7 @@ a:visited {
 .hero-container {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 90px;
 }
 
@@ -86,3 +86,37 @@ a:visited {
     width: 400px;
     height: 450px;
 }
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.card {
+    max-width :175px;
+    color: blue;
+}
+
+.card:hover {
+    color: orange;
+}
+
+.content h2 {
+    padding:50px;
+    font-size: 36px;
+    
+}
+
+.card-img {
+    width:144px;
+    height:144px;
+    background-color: orangered;
+    border-radius: 15px;
+}
+
+.card-img:hover {
+    transform:scale(1.05);
+}
+
